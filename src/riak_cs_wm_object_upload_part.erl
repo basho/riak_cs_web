@@ -35,7 +35,7 @@
          to_xml/2,
          finish_request/2]).
 
--include("riak_cs.hrl").
+-include_lib("riak_cs_core/include/riak_cs.hrl").
 -include_lib("webmachine/include/webmachine.hrl").
 -include_lib("xmerl/include/xmerl.hrl").
 

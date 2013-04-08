@@ -21,7 +21,7 @@
 -module(riak_cs_wm_error_handler).
 -export([render_error/3]).
 
--include("riak_cs.hrl").
+-include_lib("riak_cs_core/include/riak_cs.hrl").
 
 render_error(500, Req, Reason) ->
     riak_cs_dtrace:dt_wm_entry(?MODULE, <<"render_error">>),

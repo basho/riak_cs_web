@@ -34,7 +34,7 @@
          pretty_print/2
         ]).
 
--include("riak_cs.hrl").
+-include_lib("riak_cs_core/include/riak_cs.hrl").
 -include_lib("webmachine/include/wm_reqdata.hrl").
 
 -record(ctx, {

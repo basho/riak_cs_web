@@ -50,7 +50,7 @@
          bucket_owner/2
         ]).
 
--include("riak_cs.hrl").
+-include_lib("riak_cs_core/include/riak_cs.hrl").
 -include_lib("webmachine/include/webmachine.hrl").
 
 -define(QS_KEYID, "AWSAccessKeyId").

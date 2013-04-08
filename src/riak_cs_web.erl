@@ -25,7 +25,7 @@
 -export([admin_api_dispatch_table/0,
          object_api_dispatch_table/0]).
 
--include("riak_cs.hrl").
+-include_lib("riak_cs_core/include/riak_cs.hrl").
 
 -type dispatch_rule() :: {[string() | atom()], atom(), [term()]}.
 

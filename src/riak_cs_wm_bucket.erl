@@ -28,7 +28,7 @@
          delete_resource/2,
          authorize/2]).
 
--include("riak_cs.hrl").
+-include_lib("riak_cs_core/include/riak_cs.hrl").
 -include_lib("webmachine/include/webmachine.hrl").
 
 %% @doc Get the list of methods this resource supports.

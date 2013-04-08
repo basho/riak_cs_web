@@ -31,7 +31,7 @@
 
 %% TODO: DELETE?
 
--include("riak_cs.hrl").
+-include_lib("riak_cs_core/include/riak_cs.hrl").
 -include_lib("webmachine/include/webmachine.hrl").
 -include_lib("riak_pb/include/riak_pb_kv_codec.hrl").
 

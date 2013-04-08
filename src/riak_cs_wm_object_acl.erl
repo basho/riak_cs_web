@@ -29,7 +29,7 @@
          accept_body/2,
          produce_body/2]).
 
--include("riak_cs.hrl").
+-include_lib("riak_cs_core/include/riak_cs.hrl").
 -include_lib("webmachine/include/webmachine.hrl").
 
 init(Ctx) ->

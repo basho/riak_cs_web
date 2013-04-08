@@ -22,8 +22,8 @@
 
 -export([rewrite/5, original_resource/1]).
 
--include("riak_cs.hrl").
--include("s3_api.hrl").
+-include_lib("riak_cs_core/include/riak_cs.hrl").
+-include_lib("riak_cs_core/include/s3_api.hrl").
 
 -define(RCS_REWRITE_HEADER, "x-rcs-rewrite-path").
 

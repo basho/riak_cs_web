@@ -37,7 +37,7 @@
          multiple_choices/2,
          finish_request/2]).
 
--include("riak_cs.hrl").
+-include_lib("riak_cs_core/include/riak_cs.hrl").
 -include_lib("webmachine/include/webmachine.hrl").
 
 -define(RIAKCPOOL, bucket_list_pool).

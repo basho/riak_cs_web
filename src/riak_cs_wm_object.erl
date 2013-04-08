@@ -33,7 +33,7 @@
          delete_resource/2,
          valid_entity_length/2]).
 
--include("riak_cs.hrl").
+-include_lib("riak_cs_core/include/riak_cs.hrl").
 -include_lib("webmachine/include/webmachine.hrl").
 
 -spec init(#context{}) -> {ok, #context{}}.
